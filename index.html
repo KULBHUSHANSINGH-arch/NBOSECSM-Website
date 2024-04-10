@@ -1,0 +1,1215 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        
+        <!-- title of site -->
+        <title>Directory Landing Page</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+		<!--flaticon.css-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--slick.css-->
+        <link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/slick-theme.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+		<link rel="stylesheet" href="contact.css">
+
+
+		<script>
+			function submitForm() {
+				var name = document.getElementById('name').value;
+				var email = document.getElementById('email').value;
+				var phone = document.getElementById('phone').value;
+				var message = document.getElementsByName('message')[0].value;
+		
+				var url = 'https://docs.google.com/forms/d/e/1FAIpQLSfixrYTS0dAICQ3aBUC0Rk4Tl_h-IMTVTy7RwSTq3bydOGlCQ/viewform?'
+					+ 'entry.1234567890=' + encodeURIComponent(name)
+					+ '&entry.0987654321=' + encodeURIComponent(email)
+					+ '&entry.9876543210=' + encodeURIComponent(phone)
+					+ '&entry.0987654321=' + encodeURIComponent(message);
+		
+				window.open(url);
+			}
+		</script>
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!--header-top start -->
+		<header id="header-top" class="header-top">
+			<ul>
+				<li>
+					<div class="header-top-left">
+						<ul>
+							<!-- <li class="select-opt">
+								<select name="language" id="language">
+									<option value="default">EN</option>
+									<option value="Bangla">BN</option>
+									<option value="Arabic">AB</option>
+								</select> -->
+							</li>
+							<!-- <li class="select-opt">
+								<select name="currency" id="currency">
+									<option value="usd">USD</option>
+									<option value="euro">Euro</option>
+									<option value="bdt">BDT</option>
+								</select>
+							</li> -->
+							<!-- <li class="select-opt">
+								<a href="#"><span class="lnr lnr-magnifier"></span></a>
+							</li>
+						</ul> -->
+					</div>
+				</li>
+<!-- 				
+				<li class="head-responsive-right pull-right">
+					<div class="header-top-right">
+						<ul>
+							<li class="header-top-contact">
+								+1 222 777 6565
+							</li>
+							<li class="header-top-contact">
+								<a href="#">sign in</a>
+							</li>
+							<li class="header-top-contact">
+								<a href="#">register</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul> -->
+					
+		
+		</header><!--/.header-top-->
+		<!--header-top end -->
+
+		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="https://nbosecsm.com/">NOBSE<span>CSM</span></a>
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                    <li class=" scroll active"><a href="#home">home</a></li>
+			                    <li class="scroll"><a href="#works">FASHION SHOW</a></li>
+			                    <li class="scroll"><a href="#explore">city</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li>
+			                    <li class="scroll"><a href="#blog">Our team</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>global international India begast beauty pageant </h2>
+					<p style="color: rgb(32, 192, 99); font-size: 100px;"> <strong>Fashion Shows </strong></p>
+					<!-- <p>
+						Find Best Place, Restaurant, Hotel, Real State and many more think in just One click 
+					</p> -->
+				</div>
+				<!-- <div class="welcome-hero-serch-box">
+					<div class="welcome-hero-form">
+						<div class="single-welcome-hero-form">
+							<h3>what?</h3>
+							<form action="index.html">
+								<input type="text" placeholder="Ex: palce, resturent, food, automobile" />
+							</form>
+							<div class="welcome-hero-form-icon">
+								<i class="flaticon-list-with-dots"></i>
+							</div>
+						</div>
+						<div class="single-welcome-hero-form">
+							<h3>location</h3>
+							<form action="index.html">
+								<input type="text" placeholder="Ex: london, newyork, rome" />
+							</form>
+							<div class="welcome-hero-form-icon">
+								<i class="flaticon-gps-fixed-indicator"></i>
+							</div>
+						</div>
+					</div>
+					<div class="welcome-hero-serch">
+						<button class="welcome-hero-btn" onclick="window.location.href='#'">
+							 search  <i data-feather="search"></i> 
+						</button>
+					</div>
+				</div> -->
+			</div>
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--list-topics start -->
+		<section id="list-topics" class="list-topics">
+			<div class="container">
+				<div class="list-topics-content">
+					<ul>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="flaticon-restaurant"></i>
+								</div>
+								<h2><a href="#">resturent</a></h2>
+								<p>150 Visited</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="flaticon-travel"></i>
+								</div>
+								<h2><a href="#">destination</a></h2>
+								<p>214 Arrived</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="flaticon-building"></i>
+								</div>
+								<h2><a href="#">hotels</a></h2>
+								<p>185 party places</p>
+							</div>
+						</li>
+						<!-- <li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="flaticon-pills"></i>
+								</div>
+								<h2><a href="#">shows</a></h2>
+								<p>200 listings</p>
+							</div>
+						</li> -->
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="flaticon-transport"></i>
+								</div>
+								<h2><a href="#">tour</a></h2>
+								<p style="color: green;"> Winners</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.list-topics-->
+		<!--list-topics end-->
+
+		<!--works start -->
+		<section id="works" class="works">
+			<div class="container">
+				<div class="section-header">
+					<h2>Fashion Show</h2>
+					<p>Learn More about how our Fashion Show  winner</p>
+				</div><!--/.section-header-->
+				<div class="works-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-lightbulb-idea"></i> -->
+									<img src="./assets/images/feature/trophy.png" alt="">
+								</div>
+								<h2><a href="#">Winner <span> Price </span>  a mistery</a></h2>
+								<p>
+									Earlier this month, Yasmin Jal Mistry, a businesswoman and industrialist, was crowned Mrs World International at the 2022 edition of the beauty pageant in a star-studded grand finale event held in Mumbai on June 5. Yasmin beat 52 finalists to win the pageant, and was also crowned 'Mrs Photogenic'. 
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-networking"></i> -->
+									<img src="./assets/images/feature/spotlight.png" alt="">
+								</div>
+								<h2><a href="#">fashion  <span> show Details</span></a></h2>
+								<p>
+									A fashion show (French défilé de mode) is an event put on by a fashion designer to showcase their upcoming line of clothing and/or accessories during a fashion week. Fashion shows debut every season, particularly the spring/summer and fall/winter seasons.
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<!-- <i class="flaticon-location-on-road"></i> -->
+									<img src="./assets/images/feature/winner.png" alt="">
+								</div>
+								<h2><a href="#">Fashion <span> show</span> Organization ~by</a> </h2>
+							
+								<p>
+									A fashion show is an event organized by a NBOSECSM their upcoming designs and accessories during Fashion Week.
+									*NBOSECSM* "NATIONAL BOARD OF OPEN SCHOOLING & EXAMINATION COMPUTER SAKSHARTA MISSION" 
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+		
+		</section><!--/.works-->
+		<!--works end -->
+
+		<!--explore start --> 
+		<section id="explore" class="explore">
+			<div class="container">
+				<div class="section-header">
+					<h2>Fashion Show Organize in these City</h2>
+					<p>Explore New culture around the world and many more.</p>
+				</div><!--/.section-header-->
+				<div class="explore-content">
+					<div class="row">
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e1.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="#">Hotel View</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#"> 10 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">5$-300$</span>
+										</span>
+										 <a href="#">resturent</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Hotels in Agra: Planning to host an engagement party, birthday party or anniversary party and looking for a perfect venue. We have list of best hotels in Agra, where you can comfortably host these kinds of celebrations, as it has all the facilities to fulfill your requirements according to your needs.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#"><i data-feather="map-pin"></i></a>
+													<a href="#"><i data-feather="upload"></i></a>
+													<a href="#"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e2.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">featured</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-2">
+									<h2><a href="#">swim and dine resort</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4.5</span>
+										<a href="#"> 8 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">50$-500$</span>
+										</span>
+										 <a href="#">hotel</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													The All-American Diner, Habitat World at India Habitat Centre, Lodhi Road, New Delhi. Tel: 011 43663162. The East Coast Jewish Bagel The bagel. In addition to breakfast, <br>
+													We have chips and grits. We have ribs and wings. We even have a salad. Do you have the appetite for the 50 greatest dishes of American food.
+												
+
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#"><i data-feather="map-pin"></i></a>
+													<a href="#"><i data-feather="upload"></i></a>
+													<a href="#"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e3.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-3">
+									<h2><a href="#">Agra venue for party</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#"> 15 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">5k$-10k$</span>
+										</span>
+										 <a href="#">destination</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Event organizers for fashion shows in Agra are skilled at turning visions into reality, managing budgets and timelines, and coordinating all aspects of the 91 Fashion Show Organisers in Agra. Find ✓Event Organisers, ✓Balloon Decorators, ✓Flower Decorators, ✓Wedding Planners, ✓Birthday Party Decorators in AGRA.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#"><i data-feather="map-pin"></i></a>
+													<a href="#"><i data-feather="upload"></i></a>
+													<a href="#"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e4.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">most view</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-4">
+									<h2><a href="#">Fashion show</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#"> 10 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">10k$-15k$</span>
+										</span>
+										 <a href="#">real estate</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#"><i data-feather="map-pin"></i></a>
+													<a href="#"><i data-feather="upload"></i></a>
+													<a href="#"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e5.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">featured</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-2">
+									<h2><a href="#">vintage car expo</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4.2</span>
+										<a href="#"> 8 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">500$-1200$</span>
+										</span>
+										 <a href="#">automotion</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#"><i data-feather="map-pin"></i></a>
+													<a href="#"><i data-feather="upload"></i></a>
+													<a href="#"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e6.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-5">
+									<h2><a href="#">thailand tour</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#"> 15 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">5k$-10k$</span>
+										</span>
+										 <a href="#">destination</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incid ut labore et dolore magna aliqua.... 
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#"><i data-feather="map-pin"></i></a>
+													<a href="#"><i data-feather="upload"></i></a>
+													<a href="#"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.explore-->
+		<!--explore end -->
+
+		<!--reviews start -->
+		<section id="reviews" class="reviews">
+			<div class="section-header">
+				<h2>clients reviews</h2>
+				<p>What our client say about us</p>
+			</div><!--/.section-header-->
+			<div class="reviews-content">
+				<div class="testimonial-carousel">
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c1.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Mr. Rahul Sharma</h2>
+									<h4>Agra, UK</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									First of all these collections are not for common people mostly. These are for those stardom celebrities that can do anything for attention and to look out of the line.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/founder details/sn.jpeg" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Mrs. Shneha </h2>
+									<h4>Delhi</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Sneha Gupta	 a new sensation in beauty and fashion world and the winner of three beauty pageants is a native of Atlanta, Georgia, USA. This soon to be a freshman in college, focused her studies on computer science, business, and marketing.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c3.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Shohrab Hossain</h2>
+									<h4>Noida , UP</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c4.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Rocky</h2>
+									<h4>Firozabad, UP</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Rocky Handsome is the reason that people don't want to listen. It is the epitome of lazy Bollywood Fashion Shows.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c1.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Mr. Surjeet Singh</h2>
+									<h4>Agra</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									A beautiful Fashion Show to Commit then it will desiger to the Very beautiful & loving to the People wants.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c2.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Rinku Singh</h2>
+									<h4>Delhi</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Delhi People want to Organize this show in Delhi to build a History in the Fashion Designing & Show's..
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c3.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Er. Abdhesh Rajput</h2>
+									<h4>Agra</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									People now know that it's a wonderful place to showcase our artistry and talent in the media.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c4.png" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Architect.  Jai Singh Rao</h2>
+									<h4> Azamgarh, UP </h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i> 
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis eaque.
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				</div>
+			</div>
+
+		</section><!--/.reviews-->
+		<!--reviews end -->
+
+		<!-- statistics strat -->
+		<section id="statistics"  class="statistics">
+			<div class="container">
+				<div class="statistics-counter"> 
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">90 </div> <span>K+</span>
+							</div><!--/.statistics-content-->
+							<h3>Viewer's</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">40</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>Opening</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">65</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>visitors</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">50</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>happy clients</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+				</div><!--/.statistics-counter-->	
+			</div><!--/.container-->
+
+		</section><!--/.counter-->	
+		<!-- statistics end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog" >
+			<div class="container">
+				<div class="section-header">
+					<h2>Organisers</h2>
+					<p>Always upto date with our latest Shows and NBOSECSM.. </p>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="assets/images/founder details/11.jpeg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Mr. Ravi Kumar</a></h2>
+									<p>CEO <span>of the </span> <b> <span style="color: rgb(104, 104, 184);">         NBOSECSM </b></span></p>
+									<!-- <h4>posted <span>by</span> <a href="#">admin</a> march 2018</h4> -->
+									<p>NBOSECSM is registered Under Govt. of India NCT New Delhi. This mission’s objective is to impart basic computer training,</p>
+									<p>
+										<span><b>Education:</b></span>
+										MBA, BEd, IT Computer Hardware Networking
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="assets/images/founder details/group2.jpeg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Participants of our fashion show are members</a></h2>
+									<h4>posted <span>by</span> <a href="#">admin</a> march 2018</h4>
+									<p>
+										Taj India Fashion Runway by Kumar Jai will take place on January 7 in Agra, at the Taj Hotel and Convention Centre, and feature celebrity showstoppers,
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="assets/images/founder details/1.jpeg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Winner of the Show</a></h2>
+									<!-- <h4>posted <span>by</span> <a href="#">admin</a> march 2018</h4> -->
+									<p>
+										Ekta Singh, who became the female face of the show, is a person who is very positive about every aspect of life and believes in never give up attitude.
+										A host of celebrities including Renowned Actor Ashmit Patel, Actor and Model Rohit Khandelwal & and actress Zoya Afroz were among the jury members 
+
+
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ------------------------------------- Contact _---------------------------------------- -->
+			<div class="container-contact100" id="contact">
+				<div class="wrap-contact100">
+					<form class="contact100-form validate-form">
+						<span class="contact100-form-title">Contact Me</span>
+						<div class="wrap-input100 validate-input" data-validate="Name is required">
+							<input class="input100" id="name" type="text" name="name" placeholder="Name">
+							<label class="label-input100" for="name"><span class="lnr lnr-user"></span></label>
+						</div>
+						<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+							<input class="input100" id="email" type="text" name="email" placeholder="Email">
+							<label class="label-input100" for="email"><span class="lnr lnr-envelope"></span></label>
+						</div>
+						<div class="wrap-input100 validate-input" data-validate="Phone is required">
+							<input class="input100" id="phone" type="text" name="phone" placeholder="Phone">
+							<label class="label-input100" for="phone"><span class="lnr lnr-phone-handset"></span></label>
+						</div>
+						<div class="wrap-input100 validate-input" data-validate="Message is required">
+							<textarea class="input100" name="message" placeholder="Your message..."></textarea>
+						</div>
+						<div class="container-contact100-form-btn">
+							<div class="wrap-contact100-form-btn">
+								<div class="contact100-form-bgbtn"></div>
+								<button class="contact100-form-btn" type="button" onclick="submitForm()">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="dropDownSelect1"></div>
+			
+			
+			<!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+
+		<!--subscription strat -->
+		<!-- <section id="contact"  class="subscription">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						do you want to add your business listing with us?
+					</h2>
+					<p>
+						Listrace offer you to list your business with us and we very much able to promote your Business.
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="subscription-input-group">
+							<form action="#">
+								<input type="email" class="subscription-input-form" placeholder="Enter your email here">
+								<button class="appsLand-btn subscribe-btn" onclick="window.location.href='#'">
+									creat account
+								</button>
+							</form>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+		</section> -->
+		<!--/subscription-->	
+		<!--subscription end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+			           	<div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                <a class="navbar-brand" href="index.html">NBOSE<span>CSM</span></a>
+				            </div><!--/.navbar-header-->
+			           	</div>
+			           	<div class="col-sm-9">
+			           		<ul class="footer-menu-item">
+			                    <li class="scroll"><a href="#works">how it works</a></li>
+			                    <li class="scroll"><a href="#explore">explore</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li>
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                    <li class=" scroll"><a href="#contact">my account</a></li>
+			                </ul><!--/.nav -->
+			           	</div>
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<div class="col-sm-5">
+							<p>
+								&copy;copyright. kulbhushansingh <a href="https://www.linkedin.com/in/kulbhushan-singh-0a954018b/"></a>
+							</p><!--/p-->
+						</div>
+						<div class="col-sm-7">
+							<div class="footer-social">
+								<span><i class="fa fa-phone"> +91 XXX-XXX-5241</i></span>
+								<a href="https://www.facebook.com/people/global-international-India-begast-beauty-pageant/61557960148999/?mibextid=ZbWKwL"><i class="fa fa-facebook"></i></a>	
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="https://www.linkedin.com/in/ravi-das-065154213/"><i class="fa fa-linkedin"></i></a>
+								<!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
+								<a href="https://www.instagram.com/invites/contact/?i=yjzd4wnosyl2&utm_content=u8iwuvs"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		     
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+        
+    </body>
+	
+</html>
